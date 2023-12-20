@@ -13,4 +13,10 @@ The steps to geting it done are highlighted below.
 - [Time To Live](#time-to-live)
 - [Cache Invalidation](#cache-invalidation)
 - [Cleanup](#cleanup)
+
+### Bucket Creation
+
         
+![Bucket Public](https://github.com/Elizzy01/Deploying-a-Static-Website-using-AWS-S3-and-Cloudfront/assets/98459984/daccee35-1b25-41f1-9e1c-3f734425b37c)
+![Creating Bucket](https://github.com/Elizzy01/Deploying-a-Static-Website-using-AWS-S3-and-Cloudfront/assets/98459984/07580a28-114c-494d-a8bb-85babe51948c)
+![Uploading bucket](https://github.com/Elizzy01/Deploying-a-Static-Website-using-AWS-S3-and-Cloudfront/assets/98459984/30bd845a-1567-40e0-9916-80d563cfd18b)
