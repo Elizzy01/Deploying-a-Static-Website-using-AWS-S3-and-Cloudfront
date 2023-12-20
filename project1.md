@@ -60,4 +60,23 @@ the static website hosting configurations will appear. Follow the instructions b
 use case.
  - Using a Policy generator.
 - We’ll be using the second method for this project.
+  
 12. Click on Policy Generator.
+![Edit permissions for cloudfront](https://github.com/Elizzy01/Deploying-a-Static-Website-using-AWS-S3-and-Cloudfront/assets/98459984/2dea7443-2be4-4e0c-bbad-dbb56db3e5aa)
+
+13. You will be redirected to the AWS Policy Generator Page. Fill out the
+fields using the following configuration:
+```
+Policy Type: **S3 Bucket Policy**
+Effect: Allow
+Principal: *
+AWS Service: Amazon S3
+Actions: Check the GetObjects checkbox
+ARN: Paste the ARN for your S3 bucket here, and then add '/*'.
+Here’s an example of how it should look like:
+arn:aws:s3:::<bucket-name>/*
+
+```
+**Replace <bucket-name> with the name of your bucket.**
+
+13. Click on Add Statement > Generate Policy.
