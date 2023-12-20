@@ -1,6 +1,6 @@
 Ever dreamt of crafting a website and **turbocharging its speed through CloudFront magic?** Here, we blend **S3 simplicity with CloudFront prowess.** Breaking free from the static norm and embracing the dynamic world of caching wonders!!!
 
-The steps to geting it done are highlighted below. 
+The steps to getting it done are highlighted below. 
 
 **Table of Contents**
 
@@ -37,13 +37,23 @@ within becoming public.`
 
 ![Uploading bucket](https://github.com/Elizzy01/Deploying-a-Static-Website-using-AWS-S3-and-Cloudfront/assets/98459984/30bd845a-1567-40e0-9916-80d563cfd18b)
 
-### Enabling Static Website Hosting
+### B. Enabling Static Website Hosting
 **Click on the newly-created bucket, and go to the Properties tab**
 6. Scroll down to the end to Static Website Hosting
 7. Click on the edit button
-8. Check the Enable radio button. After this, a list of configurations for
-the static website hosting will appear. Follow the instructions below
+8. Check the Enable radio button. After this, a list of 
+the static website hosting configurations will appear. Follow the instructions below:
  - Hosting Type: Host a static website
  - Index document: type index.html
  - Click on Save Changes
 
+### Configure Bucket Policy To Allow Public Access
+9. Go to the Permissions tab of your bucket.
+10. Scroll down to Bucket Policy, and click on edit.
+11. There are 2 ways to add a bucket policy:
+
+ - Checking Policy examples and copying the ones for your
+use case.
+ - Using a Policy generator.
+- We’ll be using the second method for this project.
+12. Click on Policy Generator.
