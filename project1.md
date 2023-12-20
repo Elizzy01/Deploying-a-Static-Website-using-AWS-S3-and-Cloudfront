@@ -37,7 +37,7 @@ within becoming public.`
 
 ![Uploading bucket](https://github.com/Elizzy01/Deploying-a-Static-Website-using-AWS-S3-and-Cloudfront/assets/98459984/30bd845a-1567-40e0-9916-80d563cfd18b)
 
-### B. Enabling Static Website Hosting
+### Enabling Static Website Hosting
 **Click on the newly-created bucket, and go to the Properties tab**
 6. Scroll down to the end to Static Website Hosting
 7. Click on the edit button
@@ -48,9 +48,13 @@ the static website hosting configurations will appear. Follow the instructions b
  - Click on Save Changes
 
 ### Configure Bucket Policy To Allow Public Access
+
 9. Go to the Permissions tab of your bucket.
 10. Scroll down to Bucket Policy, and click on edit.
-11. There are 2 ways to add a bucket policy:
+
+![Edit permissions for cloudfront](https://github.com/Elizzy01/Deploying-a-Static-Website-using-AWS-S3-and-Cloudfront/assets/98459984/2dea7443-2be4-4e0c-bbad-dbb56db3e5aa)
+
+12. There are 2 ways to add a bucket policy:
 
  - Checking Policy examples and copying the ones for your
 use case.
