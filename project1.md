@@ -20,6 +20,7 @@ The steps to geting it done are highlighted below.
 3. Click on Create a Bucket
    
 ![Creating Bucket](https://github.com/Elizzy01/Deploying-a-Static-Website-using-AWS-S3-and-Cloudfront/assets/98459984/07580a28-114c-494d-a8bb-85babe51948c)
+
 4. Create a bucket with the following configuration
  - Name: has to be globally unique
  - AWS Region: us-east-1
@@ -31,4 +32,18 @@ within becoming public.`
 
 ![Bucket Public](https://github.com/Elizzy01/Deploying-a-Static-Website-using-AWS-S3-and-Cloudfront/assets/98459984/daccee35-1b25-41f1-9e1c-3f734425b37c)
 
+- Leave everything else as their default configuration.
+- Click on Create Bucket.
+
 ![Uploading bucket](https://github.com/Elizzy01/Deploying-a-Static-Website-using-AWS-S3-and-Cloudfront/assets/98459984/30bd845a-1567-40e0-9916-80d563cfd18b)
+
+### Enabling Static Website Hosting
+**Click on the newly-created bucket, and go to the Properties tab**
+6. Scroll down to the end to Static Website Hosting
+7. Click on the edit button
+8. Check the Enable radio button. After this, a list of configurations for
+the static website hosting will appear. Follow the instructions below
+ - Hosting Type: Host a static website
+ - Index document: type index.html
+ - Click on Save Changes
+
